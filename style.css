@@ -1,0 +1,252 @@
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+  background: linear-gradient(to right, #949494, black);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainComtainer {
+  display: flex;
+}
+
+main {
+  padding: 40px 60px;
+  flex-direction: row-reverse;
+  width: auto;
+  justify-content: center;
+  margin: 0;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+aside {
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 50px;
+  width: 390px;
+  background-color: black;
+}
+
+h3 {
+  color: #fff;
+  font-weight: bolder;
+}
+
+.card {
+  display: inline-block;
+  width: 24rem;
+  background: black;
+  box-shadow: 0 0 15px;
+  border-radius: 10px;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+  padding: 10px 20px;
+}
+
+.card-body p {
+  color: #fff;
+  font-weight: bolder;
+}
+
+.card-body button {
+  outline: none;
+  padding: 5px 9px;
+  font-weight: bolder;
+}
+
+.table {
+  text-align: center;
+  color: #fff;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.tableCell {
+  border: 1px solid #ccc;
+}
+
+caption {
+  padding: 10px;
+}
+
+#more {
+  display: none;
+}
+
+header {
+  width: 100%;
+}
+
+.navigation {
+  display: flex;
+  width: auto;
+  height: 100px;
+  border: solid 1px black;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.navigation ul {
+  display: flex;
+  gap: 40px;
+}
+
+.navigation ul,
+li,
+a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  font-size: 12px;
+  transition: ease-in-out 0.4s;
+}
+
+h1 {
+  font-family: serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: white;
+}
+
+.secondHeader {
+  padding-top: 35px;
+}
+
+.our {
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+.navigation ul,
+h1 li,
+a:hover {
+  color: red;
+}
+
+.nr {
+  letter-spacing: 5px;
+}
+
+.contact {
+  font-size: 19px;
+  color: white;
+  padding-top: 50px;
+  letter-spacing: 4px;
+}
+
+.contactPerson {
+  color: white;
+  font-size: 15px;
+  padding-top: 14px;
+}
+
+.aboutAs {
+  font-size: 19px;
+  color: white;
+  padding-bottom: 23px;
+  letter-spacing: 4px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form {
+  color: #fff;
+  margin-top: 100px;
+  background: linear-gradient(to left, #949494, black);
+  max-width: 450px;
+  padding: 36px;
+  text-align: center;
+  box-shadow: 0px 8px 24px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+form p {
+  font-size: 40px;
+  width: 400px;
+}
+
+input,
+button {
+  background: linear-gradient(to left, #949494, rgb(89, 88, 88));
+  border: none;
+  border-radius: 15px;
+  padding: 12px 24px;
+}
+
+input {
+  margin-bottom: 34px;
+  width: 100%;
+}
+
+label {
+  position: absolute;
+  transform: translateY(-50%);
+  transition: 0.3s, opacity 0.3s;
+}
+
+.form_spacer {
+  background: rgba(255, 255, 255, 0.55);
+  height: 2px;
+  margin: 0 auto 32px;
+  width: 80%;
+  border-radius: 100%;
+}
+
+.form_icon::before {
+  background: rgba(255, 255, 255, 0.55);
+  display: block;
+  position: absolute;
+  bottom: 0;
+  content: "";
+  height: 24px;
+  width: 64px;
+  border-radius: 50%;
+}
+
+.form_icon {
+  border: solid rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  box-shadow: 0px 8px 24px 0 rgba(0, 0, 0, 0.3);
+  height: 72px;
+  width: 72px;
+  margin: 0 auto 24px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.form_icon::after {
+  background: rgba(255, 255, 255, 0.55);
+  display: block;
+  position: absolute;
+  bottom: 45%;
+  content: "";
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  right: 50%;
+  transform: translate(50%);
+}
+
+.loginCont {
+  display: flex;
+  justify-content: center;
+}
